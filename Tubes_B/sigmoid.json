@@ -1,0 +1,42 @@
+{
+  "layers": [
+    {
+      "tipe": "input"
+    },
+    {
+      "tipe": "hidden",
+      "n_neuron": 2,
+      "activation_function": "sigmoid",
+      "weight": [
+        [
+          20,
+          -20
+        ],
+        [
+          20,
+          -20
+        ]
+      ],
+      "bias": [
+        -10,
+        30
+      ]
+    },
+    {
+      "tipe": "output",
+      "n_neuron": 1,
+      "activation": "sigmoid",
+      "weight": [
+        [
+          20
+        ],
+        [
+          20
+        ]
+      ],
+      "bias": [
+        -30
+      ]
+    }
+  ]
+}
