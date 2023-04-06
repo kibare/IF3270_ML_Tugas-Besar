@@ -6,29 +6,29 @@
     {
       "tipe": "hidden",
       "n_neuron": 3,
-      "activation_function": "sigmoid",
+      "activation_function": "softmax",
       "weight": [
         [
-          0.2,
-          0.4,
-          0.2
+          2.0,
+          1.0,
+          3.0
         ],
         [
-          0.1,
-          0.2,
-          0.4
+          3.0,
+          2.0,
+          1.0
         ]
       ],
       "bias": [
-        0.4,
-        0.2,
-        0.1
+        1.0,
+        2.0,
+        3.0
       ]
     },
     {
       "tipe": "output",
       "n_neuron": 1,
-      "activation": "sigmoid",
+      "activation": "softmax",
       "weight": [
         [
           0

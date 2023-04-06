@@ -6,29 +6,29 @@
     {
       "tipe": "hidden",
       "n_neuron": 3,
-      "activation_function": "sigmoid",
+      "activation_function": "linear",
       "weight": [
         [
+          0.5,
           0.2,
-          0.4,
-          0.2
+          -0.8
         ],
         [
-          0.1,
-          0.2,
+          0.3,
+          -0.6,
           0.4
         ]
       ],
       "bias": [
-        0.4,
         0.2,
+        0.3,
         0.1
       ]
     },
     {
       "tipe": "output",
       "n_neuron": 1,
-      "activation": "sigmoid",
+      "activation": "linear",
       "weight": [
         [
           0
