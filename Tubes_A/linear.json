@@ -4,9 +4,9 @@
       "tipe": "input"
     },
     {
-      "tipe": "hidden",
+      "tipe": "output",
       "n_neuron": 3,
-      "activation_function": "linear",
+      "activation": "linear",
       "weight": [
         [
           0.5,
@@ -23,25 +23,6 @@
         0.2,
         0.3,
         0.1
-      ]
-    },
-    {
-      "tipe": "output",
-      "n_neuron": 1,
-      "activation": "linear",
-      "weight": [
-        [
-          0
-        ],
-        [
-          0
-        ],
-        [
-          0
-        ]
-      ],
-      "bias": [
-        0
       ]
     }
   ]

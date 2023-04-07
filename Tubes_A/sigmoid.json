@@ -4,9 +4,9 @@
       "tipe": "input"
     },
     {
-      "tipe": "hidden",
+      "tipe": "output",
       "n_neuron": 3,
-      "activation_function": "sigmoid",
+      "activation": "sigmoid",
       "weight": [
         [
           0.2,
@@ -23,25 +23,6 @@
         0.4,
         0.2,
         0.1
-      ]
-    },
-    {
-      "tipe": "output",
-      "n_neuron": 1,
-      "activation": "sigmoid",
-      "weight": [
-        [
-          0
-        ],
-        [
-          0
-        ],
-        [
-          0
-        ]
-      ],
-      "bias": [
-        0
       ]
     }
   ]

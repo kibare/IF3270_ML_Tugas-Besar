@@ -4,9 +4,9 @@
       "tipe": "input"
     },
     {
-      "tipe": "hidden",
+      "tipe": "output",
       "n_neuron": 3,
-      "activation_function": "relu",
+      "activation": "relu",
       "weight": [
         [
           0.4,
@@ -23,25 +23,6 @@
         0.1,
         0.2,
         0.3
-      ]
-    },
-    {
-      "tipe": "output",
-      "n_neuron": 1,
-      "activation": "relu",
-      "weight": [
-        [
-          0
-        ],
-        [
-          0
-        ],
-        [
-          0
-        ]
-      ],
-      "bias": [
-        0
       ]
     }
   ]
