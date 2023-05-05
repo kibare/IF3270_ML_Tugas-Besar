@@ -1,57 +1,71 @@
 {
-  "layers": [
-    {
-      "tipe": "input"
+    "layers": [
+        {
+            "tipe": "input"
+        },
+        {
+            "tipe": "output",
+            "n_neuron": 2,
+            "activation": "sigmoid",
+            "weight": [
+                [
+                    0.4,
+                    0.5
+                ],
+                [
+                    0.9,
+                    0.1
+                ]
+            ],
+            "bias": [
+                0.1,
+                0.2
+            ],
+            "input": [
+                [
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.1
+                ]
+            ],
+            "target": [
+                [
+                    0.1,
+                    1.0
+                ],
+                [
+                    1.0,
+                    0.0
+                ]
+            ]
+        }
+    ],
+    "learning_parameters": {
+        "learning_rate": 0.1,
+        "batch_size": 2,
+        "max_iteration": 1,
+        "error_threshold": 0.1
     },
-    {
-      "tipe": "output",
-      "n_neuron": 2,
-      "activation": "sigmoid",
-      "weight": [
-        [
-          0.2,
-          0.3
-        ],
-        [
-          0.35,
-          0.35
+    "expect": {
+        "stopped_by": "error_threshold",
+        "final_weight": [
+            [
+                [
+                    0.7125,
+                    -1.1742
+                ],
+                [
+                    2.3583,
+                    -0.2848
+                ],
+                [
+                    0.1112,
+                    -1.1396
+                ]
+            ]
         ]
-      ],
-      "bias": [
-        0.15,
-        0.25
-      ]
     }
-  ],
-  "learning_parameters": {
-    "learning_rate": 0.1,
-    "batch_size": 2,
-    "max_iteration": 10000,
-    "error_threshold": 0.1
-  },
-  "expect": {
-    "stopped_by": "error_threshold",
-    "final_weight": [
-      [
-        0.09371,
-        0.80997,
-        0.98226
-      ],
-      [
-        0.81887,
-        0.00132,
-        0.99521
-      ],
-      [
-        0.87707,
-        0.99881,
-        0.99175
-      ],
-      [
-        0.18976,
-        0.13892,
-        0.99872
-      ]
-    ]
-  }
 }
